@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "next/babel",
+    "es2015",
+    "react",
+    "stage-0",
+    [ "env", {
+      "targets": {
+        "safari": 10,
+        "ie": 11
+      },
+      "modules": false,
+      "useBuiltIns": true,
+      "debug": true
+    }]
+  ],
+}
